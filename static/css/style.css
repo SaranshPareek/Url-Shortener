@@ -1,0 +1,119 @@
+body{
+	height: 1200px;
+}
+.borders
+{
+	border:1px solid black;
+}
+
+.menu-opt
+{
+	border: 0px solid;
+	margin-left: 30px;
+}
+.menu-bar
+{
+	border:1px solid red; 
+	width: 100%;
+}
+
+.icon-img
+{
+	height: 100%;
+	width: 100px;
+}
+
+
+
+/*------------- body -----*/
+
+.img1
+{
+	width: auto;
+}
+
+
+.btn1
+{
+	cursor: pointer;
+	padding-top:10px;;
+	border-radius: 10px;
+	text-align: center;
+	color:white;
+	font-family: arial;
+	font-size: 20px;
+	background-color: #2A5BD7;
+	height:50px; 
+	width: 100%;
+	border: 1px solid blue;
+
+}
+.btn1:hover
+{
+	background-color: blue;
+
+}
+
+input[type=text]
+{
+	border-radius: 10px;
+	font-family: arail;
+}
+.input-url:focus
+{
+
+	border:2px solid #7591D7;
+	outline: none; 
+}
+.input-url
+{
+    padding-left: 15px;
+   	width: 100%;
+	height: 60px;
+	font-size: 20px;
+}
+
+.customurl-box
+{
+    border-radius: 10px;
+    border:1px solid yellow;
+    margin-left:80px;
+    font-family: arail;
+    background:white;
+}
+
+.input-customurl
+{
+    padding-left:0;
+    border:1px solid transparent;
+}
+.short-url-btn
+{
+	margin-left: 10px;
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+	background-color:#1B3987;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+}
+.short-url-btn:hover
+{
+	background-color: blue;
+	outline: none;
+}
+.url-output
+{
+    font-family: arial;
+    height:auto;
+    border-radius:10px;
+}
+
+.original-urloutput
+{
+    background:white;
+    border-radius:10px;
+    border:1px solid black;
+    padding: 15px 5px;
+}
